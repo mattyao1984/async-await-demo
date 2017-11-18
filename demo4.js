@@ -17,8 +17,8 @@ async function fetchGithubUser(handle) {
     const user = await showGithubUser(handle);
     console.log('user: ', user);
   } catch (err) {
-    console.error(err);
+    console.error('Error: ', err);
   }
 }
 
-fetchGithubUser('Idontexist-OK');
+fetchGithubUser('Idontexist-ok')
