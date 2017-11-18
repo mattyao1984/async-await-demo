@@ -1,0 +1,15 @@
+{
+  "name": "async-await-demo",
+  "version": "1.0.0",
+  "description": "demo to show how to use async-await features",
+  "main": "demo1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matt Yao <mattyao1984@gmail.com> (http://myrealm.com.au/)",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "node-fetch": "^1.7.3"
+  }
+}
